@@ -2,8 +2,8 @@
 
 REM This is an example how the manuals get generated on Windows with MikTeX (2.9)
 
-REM Set the full path to executable lualalatex, or put its installation path to the %PATH% env instead.
-set PDFLATEXBIN="lualalatex"
+REM Set the full path to executable lualatex, or put its installation path to the %PATH% env instead.
+set PDFLATEXBIN="lualatex"
 
 cd %~dp0
 mkdir output
