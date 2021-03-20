@@ -34,3 +34,5 @@ REM  Polish XCSoar-manual-pl generation
 REM  Portuguese XCSoar-manual-pt_BR generation
 %PDFLATEXBIN% --halt-on-error --interaction=nonstopmode --include-directory=%~dp0pt_BR --include-directory=%~dp0 --include-directory=%~dp0en --output-directory=%~dp0output  %~dp0pl\XCSoar-manual-pt_BR.tex
 
+REM  Russian XCSoar-manual generation
+%PDFLATEXBIN% --halt-on-error --interaction=nonstopmode --include-directory=%~dp0ru --include-directory=%~dp0 --output-directory=%~dp0output  %~dp0ru\XCSoar-manual-ru.tex
